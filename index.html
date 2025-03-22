@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ثانوية أبو بكر القادري</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>ثانوية أبو بكر القادري</h1>
+            </div>
+            <ul>
+                <li><a href="#home">الرئيسية</a></li>
+                <li><a href="#about">عن المدرسة</a></li>
+                <li><a href="#news">الأخبار</a></li>
+                <li><a href="#programs">المناهج</a></li>
+                <li><a href="#gallery">معرض الصور</a></li>
+                <li><a href="#clubs">النوادي</a></li>
+                <li><a href="#contact">الاتصال</a></li>
+            </ul>
+            <div class="login">
+                <a href="#login" id="loginBtn">تسجيل الدخول</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <img src="images/school.jpg" alt="صورة المدرسة" loading="lazy">
+            <div class="text-overlay">
+                <h1>مرحبًا بكم في ثانوية أبو بكر القادري</h1>
+                <p>نحن نعمل على تحسين التعليم نحو المستقبل</p>
+                <a href="#about" class="btn">تعرف أكثر</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>عن المدرسة</h2>
+        <div class="about-content">
+            <div class="history">
+                <h3>تاريخ المدرسة</h3>
+                <p>تأسست ثانوية أبو بكر القادري في عام 1990 لتقديم تعليم متميز.</p>
+            </div>
+            <div class="vision-mission">
+                <h3>الرؤية والرسالة</h3>
+                <p><strong>الرؤية:</strong> أن نصبح المدرسة الرائدة في المنطقة.</p>
+                <p><strong>الرسالة:</strong> تقديم تعليم عالي الجودة لتطوير مهارات الطلاب.</p>
+            </div>
+            <div class="facilities">
+                <h3>مرافق المدرسة</h3>
+                <ul>
+                    <li>فصول دراسية مجهزة</li>
+                    <li>مكتبة علمية</li>
+                    <li>مختبرات حديثة</li>
+                    <li>ملاعب رياضية</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- News Section -->
+    <section id="news" class="news">
+        <h2>الأخبار والفعاليات</h2>
+        <div class="news-content">
+            <div class="news-item">
+                <h3>فعالية اليوم الوطني</h3>
+                <p>احتفلت المدرسة باليوم الوطني بتاريخ 23 سبتمبر.</p>
+                <div class="comments">
+                    <h4>التعليقات:</h4>
+                    <div class="comment">
+                        <p><strong>محمد:</strong> كانت فعالية رائعة!</p>
+                    </div>
+                    <form class="comment-form">
+                        <textarea placeholder="أضف تعليقك"></textarea>
+                        <button type="submit">إرسال</button>
+                    </form>
+                </div>
+            </div>
+            <div class="news-item">
+                <h3>نتائج الاختبارات</h3>
+                <p>تم نشر نتائج الاختبارات النهائية للفصل الأول.</p>
+                <div class="comments">
+                    <h4>التعليقات:</h4>
+                    <div class="comment">
+                        <p><strong>فاطمة:</strong> تهانينا للطلاب الناجحين!</p>
+                    </div>
+                    <form class="comment-form">
+                        <textarea placeholder="أضف تعليقك"></textarea>
+                        <button type="submit">إرسال</button>
+                    </form>
+                </div>
+            </div>
+            <div class="news-item">
+                <h3>رحلة علمية</h3>
+                <p>سيتم تنظيم رحلة علمية إلى المتحف الوطني الأسبوع القادم.</p>
+                <div class="comments">
+                    <h4>التعليقات:</h4>
+                    <div class="comment">
+                        <p><strong>علي:</strong> أنا متحمس جدًا لهذه الرحلة!</p>
+                    </div>
+                    <form class="comment-form">
+                        <textarea placeholder="أضف تعليقك"></textarea>
+                        <button type="submit">إرسال</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+        <!-- Programs Section -->
+<section id="programs" class="programs">
+    <h2>المناهج والبرامج</h2>
+    <div class="programs-content">
+        <!-- جدع مشترك علمي -->
+        <div class="program-card">
+            <h3>جدع مشترك علمي</h3>
+            <p>يركز هذا المنهج على العلوم الطبيعية مثل الفيزياء والكيمياء وعلوم الحياة والأرض.</p>
+            <button class="details-btn">تعرف أكثر</button>
+            <div class="program-details">
+                <p>يشمل هذا المنهج مواد مثل: الفيزياء، الكيمياء، علوم الحياة والأرض، الرياضيات، واللغات.</p>
+            </div>
+        </div>
+
+        <!-- جدع مشترك أدبي -->
+        <div class="program-card">
+            <h3>جدع مشترك أدبي</h3>
+            <p>يركز هذا المنهج على الأدب والعلوم الإنسانية مع دراسة اللغات والعلوم الاجتماعية.</p>
+            <button class="details-btn">تعرف أكثر</button>
+            <div class="program-details">
+                <p>يشمل هذا المنهج مواد مثل: الأدب، التاريخ، الجغرافيا، الفلسفة، واللغات.</p>
+            </div>
+        </div>
+
+        <!-- أولى باكالوريا علوم تجريبية -->
+        <div class="program-card">
+            <h3>أولى باكالوريا علوم تجريبية</h3>
+            <p>يركز هذا المنهج على العلوم الطبيعية مثل الفيزياء والكيمياء وعلوم الحياة والأرض.</p>
+            <button class="details-btn">تعرف أكثر</button>
+            <div class="program-details">
+                <p>يشمل هذا المنهج مواد مثل: الفيزياء، الكيمياء، علوم الحياة والأرض، الرياضيات، واللغات.</p>
+            </div>
+        </div>
+
+        <!-- أولى باكالوريا علوم رياضية -->
+        <div class="program-card">
+            <h3>أولى باكالوريا علوم رياضية</h3>
+            <p>يركز هذا المنهج على الرياضيات والفيزياء مع تطبيقاتها في الهندسة والعلوم.</p>
+            <button class="details-btn">تعرف أكثر</button>
+            <div class="program-details">
+                <p>يشمل هذا المنهج مواد مثل: الرياضيات، الفيزياء، الكيمياء، علوم الهندسة، واللغات.</p>
+            </div>
+        </div>
+
+        <!-- أولى باكالوريا علوم اقتصادية -->
+        <div class="program-card">
+            <h3>أولى باكالوريا علوم اقتصادية</h3>
+            <p>يركز هذا المنهج على الاقتصاد والإدارة مع دراسة الأسواق والتمويل.</p>
+            <button class="details-btn">تعرف أكثر</button>
+            <div class="program-details">
+                <p>يشمل هذا المنهج مواد مثل: الاقتصاد، الإدارة، الرياضيات التطبيقية، واللغات.</p>
+            </div>
+        </div>
+
+        <!-- ثانية باكالوريا علوم فيزيائية -->
+        <div class="program-card">
+            <h3>ثانية باكالوريا علوم فيزيائية</h3>
+            <p>يركز هذا المنهج على الفيزياء والكيمياء مع تطبيقاتها في التكنولوجيا والهندسة.</p>
+            <button class="details-btn">تعرف أكثر</button>
+            <div class="program-details">
+                <p>يشمل هذا المنهج مواد مثل: الفيزياء، الكيمياء، الرياضيات، علوم الهندسة، واللغات.</p>
+            </div>
+        </div>
+
+        <!-- ثانية باكالوريا علوم رياضية -->
+        <div class="program-card">
+            <h3>ثانية باكالوريا علوم رياضية</h3>
+            <p>يركز هذا المنهج على الرياضيات المتقدمة مع تطبيقاتها في العلوم والهندسة.</p>
+            <button class="details-btn">تعرف أكثر</button>
+            <div class="program-details">
+                <p>يشمل هذا المنهج مواد مثل: الرياضيات، الفيزياء، علوم الهندسة، واللغات.</p>
+            </div>
+        </div>
+
+        <!-- ثانية باكالوريا علوم اقتصادية -->
+        <div class="program-card">
+            <h3>ثانية باكالوريا علوم اقتصادية</h3>
+            <p>يركز هذا المنهج على الاقتصاد الكلي والجزئي مع دراسة الأسواق العالمية.</p>
+            <button class="details-btn">تعرف أكثر</button>
+            <div class="program-details">
+                <p>يشمل هذا المنهج مواد مثل: الاقتصاد، الإدارة، الرياضيات التطبيقية، واللغات.</p>
+            </div>
+        </div>
+    </div>
+</section>
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <h2>معرض الصور</h2>
+        <div class="gallery-content">
+            <a href="images/photo1.jpg" data-lightbox="gallery" data-title="صورة 1">
+                <img src="images/photo1.jpg" alt="صورة 1" loading="lazy" class="gallery-item">
+            </a>
+            <a href="images/photo2.jpg" data-lightbox="gallery" data-title="صورة 2">
+                <img src="images/photo2.jpg" alt="صورة 2" loading="lazy" class="gallery-item">
+            </a>
+            <a href="images/photo3.jpg" data-lightbox="gallery" data-title="صورة 3">
+                <img src="images/photo3.jpg" alt="صورة 3" loading="lazy" class="gallery-item">
+            </a>
+        </div>
+    </section>
+
+    <!-- Clubs Section -->
+    <section id="clubs" class="clubs">
+        <h2>النوادي</h2>
+        <div class="clubs-content">
+            <div class="club-card">
+                <h3>نادي درب الفلاح</h3>
+                <p>يهتم بالشؤون الدينية وعلم الحديث وكل ما له علاقة بالدين.</p>
+                <button class="details-btn">تعرف أكثر</button>
+                <div class="club-details">
+                    <p>ينظم النادي أنشطة مثل: حلقات تحفيظ القرآن، دروس في التجويد، ومحاضرات دينية.</p>
+                </div>
+            </div>
+            <div class="club-card">
+                <h3>نادي المعلوميات</h3>
+                <p>يركز على تطوير مهارات الحاسوب والتكنولوجيا من خلال الدورات وورش العمل.</p>
+                <button class="details-btn">تعرف أكثر</button>
+                <div class="club-details">
+                    <p>ينظم النادي أنشطة مثل: دورات برمجة، ورش عمل في التصميم، ومسابقات تكنولوجية.</p>
+                </div>
+            </div>
+            <div class="club-card">
+                <h3>نادي الأعمال الاجتماعية</h3>
+                <p>يهدف إلى تعزيز العمل الجماعي والمبادرات الاجتماعية من خلال تنظيم الفعاليات الخيرية.</p>
+                <button class="details-btn">تعرف أكثر</button>
+                <div class="club-details">
+                    <p>ينظم النادي أنشطة مثل: حملات تبرع، زيارات للمستشفيات، ومشاريع خيرية.</p>
+                </div>
+            </div>
+            <div class="club-card">
+                <h3>نادي الإعلام</h3>
+                <p>يهتم بتطوير مهارات الإعلام والصحافة من خلال ورش العمل والتغطيات الإعلامية.</p>
+                <button class="details-btn">تعرف أكثر</button>
+                <div class="club-details">
+                    <p>ينظم النادي أنشطة مثل: ورش عمل في الصحافة، إنتاج مقاطع فيديو، وتغطية الفعاليات المدرسية.</p>
+                </div>
+            </div>
+            <div class="club-card">
+                <h3>نادي اللغة الإنجليزية</h3>
+                <p>يركز على تحسين مهارات اللغة الإنجليزية من خلال المحادثات والأنشطة الثقافية.</p>
+                <button class="details-btn">تعرف أكثر</button>
+                <div class="club-details">
+                    <p>ينظم النادي أنشطة مثل: مناظرات باللغة الإنجليزية، مسرحيات، ومسابقات لغوية.</p>
+                </div>
+            </div>
+            <div class="club-card">
+                <h3>نادي البيئة</h3>
+                <p>يعمل على نشر الوعي البيئي والحفاظ على الطبيعة من خلال الأنشطة التوعوية والمشاريع البيئية.</p>
+                <button class="details-btn">تعرف أكثر</button>
+                <div class="club-details">
+                    <p>ينظم النادي أنشطة مثل: حملات تنظيف، زراعة الأشجار، ومحاضرات عن البيئة.</p>
+                </div>
+            </div>
+            <div class="club-card">
+                <h3>نادي العلوم</h3>
+                <p>يهدف إلى تعزيز الفهم العلمي والتجارب العملية من خلال الأنشطة العلمية والمشاريع البحثية.</p>
+                <button class="details-btn">تعرف أكثر</button>
+                <div class="club-details">
+                    <p>ينظم النادي أنشطة مثل: تجارب علمية، مسابقات بحثية، وزيارات للمختبرات.</p>
+                </div>
+            </div>
+            <div class="club-card">
+                <h3>نادي التنمية البشرية</h3>
+                <p>يعمل على تعزيز المهارات الشخصية والاجتماعية من خلال ورش العمل والدورات التدريبية.</p>
+                <button class="details-btn">تعرف أكثر</button>
+                <div class="club-details">
+                    <p>ينظم النادي أنشطة مثل: دورات في القيادة، ورش عمل في التواصل الفعال، ومحاضرات تنموية.</p>
+                </div>
+            </div>
+            <div class="club-card">
+                <h3>نادي الأفق الإبداعي</h3>
+                <p>يهتم بالمسرح واللغة العربية والإبداع من خلال ورش العمل والمشاريع الفنية.</p>
+                <button class="details-btn">تعرف أكثر</button>
+                <div class="club-details">
+                    <p>ينظم النادي أنشطة مثل: مسرحيات، ورش عمل في الكتابة الإبداعية، ومعارض فنية.</p>
+                </div>
+            </div>
+            <div class="club-card">
+                <h3>نادي الرياضة</h3>
+                <p>يهدف إلى تعزيز النشاط البدني والروح الرياضية من خلال تنظيم الفعاليات الرياضية والمنافسات.</p>
+                <button class="details-btn">تعرف أكثر</button>
+                <div class="club-details">
+                    <p>ينظم النادي أنشطة مثل: مباريات كرة القدم، دوري كرة السلة، ومسابقات رياضية.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>اتصل بنا</h2>
+        <form class="contact-form" aria-label="نموذج الاتصال" onsubmit="return validateForm()">
+            <input type="text" placeholder="اسمك" id="name" required aria-required="true">
+            <input type="email" placeholder="بريدك الإلكتروني" id="email" required aria-required="true">
+            <textarea placeholder="رسالتك" id="message" required aria-required="true"></textarea>
+            <button type="submit">إرسال</button>
+        </form>
+        <div id="confirmationMessage" style="display: none; color: green; margin-top: 10px;">تم إرسال الرسالة بنجاح!</div>
+    </section>
+        </form>
+        <div id="confirmationMessage" style="display: none; color: green; margin-top: 10px;">تم إرسال الرسالة بنجاح!</div>
+
+    </div>
+</section>
+        </div>
+    </div>
+</section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-links">
+            <a href="#home">الرئيسية</a>
+            <a href="#about">عن المدرسة</a>
+            <a href="#news">الأخبار</a>
+            <a href="#programs">المناهج</a>
+            <a href="#gallery">معرض الصور</a>
+            <a href="#clubs">النوادي</a>
+            <a href="#contact">الاتصال</a>
+        </div>
+        <div class="contact-info">
+            <p>العنوان:Lycée Abi Bakr El Kadiri, 25WM+22V, Salé
+           </p>
+            <p>الهاتف: 0123456789</p>
+            <p>البريد الإلكتروني: info@school.com</p>
+        <div class="social-media">
+            <a href="https://www.instagram.com/elkadiri.hs?igsh=N2Z5cDNydDk1Yjlo" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/yourpage" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.twitter.com/yourpage" target="_blank"><i class="fab fa-twitter"></i></a>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" title="العودة إلى الأعلى">↑</button>
+
+    <!-- JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
